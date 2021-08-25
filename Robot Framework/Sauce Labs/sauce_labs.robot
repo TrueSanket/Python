@@ -34,6 +34,9 @@ Select all the items, add to the cart and checkout
     click element    xpath://button[@id='add-to-cart-sauce-labs-fleece-jacket']
     sleep    1
 
+    click element    xpath://button[@id='add-to-cart-sauce-labs-onesie']
+    sleep    1
+
     click element    xpath://button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']
     sleep    1
 
