@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210819 11:38:10.521" rpa="false" schemaversion="2">
+<suite id="s1" name="Selenium" source="C:\Users\GS-2953\Documents\Python\Robot Framework\Day1\Selenium">
+<suite id="s1-s1" name="First Program" source="C:\Users\GS-2953\Documents\Python\Robot Framework\Day1\Selenium\first_program.robot">
+<test id="s1-s1-t1" name="Test_Case_01">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.google.com/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210819 11:38:10.801" level="FAIL">ValueError: Argument 'url' got value 'https://www.google.com/' that cannot be converted to None.</msg>
+<status status="FAIL" starttime="20210819 11:38:10.801" endtime="20210819 11:38:10.801"/>
+</kw>
+<kw name="implicit_wait 5">
+<status status="NOT RUN" starttime="20210819 11:38:10.811" endtime="20210819 11:38:10.811"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT RUN" starttime="20210819 11:38:10.811" endtime="20210819 11:38:10.811"/>
+</kw>
+<tag>Sanity</tag>
+<status status="FAIL" starttime="20210819 11:38:10.801" endtime="20210819 11:38:10.811">ValueError: Argument 'url' got value 'https://www.google.com/' that cannot be converted to None.</status>
+</test>
+<doc>This is my suite documentation</doc>
+<status status="FAIL" starttime="20210819 11:38:10.551" endtime="20210819 11:38:10.811"/>
+</suite>
+<status status="FAIL" starttime="20210819 11:38:10.521" endtime="20210819 11:38:10.811"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Sanity</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Selenium">Selenium</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="First Program">Selenium.First Program</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
