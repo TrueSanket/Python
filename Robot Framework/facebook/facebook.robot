@@ -21,32 +21,31 @@ Create account with information
     Click Element    xpath://div[@class='_n3']
     sleep    1
 
-    input text    id:u_14_b_xv    Tyrion
-    #input text    xpath://input[@id='u_14_b_xv']    Tyrion
+    input text    xpath://input[@name='firstname']    Tyrion
     sleep    1
 
-    input text    id:u_14_d_ZO    Lannister
-    #input text    xpath://input[@id='u_14_d_ZO']    Lannister
+    input text    xpath://input[@name='lastname']    Lannister
     sleep    1
 
-    input text    id:u_14_g_91    gameofthrones@hbo.com
-    #input text    xpath://input[@id='u_14_g_91']    gameofthrones@hbo.com
+    input text    xpath://input[@name='reg_email__']    gameofthrones@hbo.com
+    sleep    2
+
+    input text    xpath://input[@name='reg_email_confirmation__']    gameofthrones@hbo.com
     sleep    1
 
-    input text    id:password_step_input    winteriscoming
-    #input text    xpath://input[@id='password_step_input']    winteriscoming
+    input text    xpath://input[@name='reg_passwd__']    winteriscoming
     sleep    1
 
     Select From List By Value    xpath://select[@id='day']    8
     sleep    1
 
-    Select From List By Value    xpath://select[@id='month']    Jan
+    Select From List By Label    id:month    Jan
     sleep    1
 
     Select From List By Value    xpath://select[@id='year']    1992
     sleep    1
 
-    click element    xpath://input[@id='u_u_5_cX']
+    click element    xpath://input[@value='2']
     sleep    2
 
 Close the browser
