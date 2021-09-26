@@ -2,15 +2,15 @@ str1 = input(str("Enter a string: "))
 str2 = input(str("Enter another string: "))
 
 # convert both the strings into lowercase
-str1 = str1.casefold()
-str2 = str2.casefold()
+str11 = str1.casefold()
+str22 = str2.casefold()
 
 # check if length is same
-if(len(str1) == len(str2)):
+if(len(str11) == len(str22)):
 
     # sort the strings
-    sorted_str1 = sorted(str1)
-    sorted_str2 = sorted(str2)
+    sorted_str1 = sorted(str11)
+    sorted_str2 = sorted(str22)
 
     # if sorted char arrays are same
     if(sorted_str1 == sorted_str2):

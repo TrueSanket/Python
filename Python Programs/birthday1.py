@@ -8,7 +8,7 @@ else:
     print("I am sorry, currently I don't know {}'s birthday".format(name))
     print("Would you like to add {}'s birthday as well?".format(name))
     consent= input("Type Yes or No: ")
-    if consent == "Yes":
+    if consent == "Yes" or "y" or "Y":
         new_date=input("Please enter {}'s birthday: ".format(name))
         birthdays[name]=str(new_date)
         print("Thank you, I have updated {}'s birthday to the records".format(name))
